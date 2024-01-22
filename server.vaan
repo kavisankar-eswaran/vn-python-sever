@@ -1,0 +1,10 @@
+##This is a Vaansoft Serverconfig file
+
+path: /vn-28,
+compress: true,
+redirects: {
+    source: /dashboard,
+    destination: /login,
+    type: 307
+},
+headers: false
