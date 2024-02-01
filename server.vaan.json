@@ -1,10 +1,12 @@
-##This is a Vaansoft Serverconfig file
-
-path: /vn-28,
-compress: true,
-redirects: {
-    source: /dashboard,
-    destination: /login,
-    type: 307
-},
-headers: false
+{
+    "server-domain":"//datacenter.foefox.com",
+    "server-path":"/vn-28",
+    "client-path":"/vn-07",
+    "compress": true,
+    "redirect":{
+        "source":"/",
+        "destination":"/auth",
+        "type":307
+    },
+    "headers":false
+}
