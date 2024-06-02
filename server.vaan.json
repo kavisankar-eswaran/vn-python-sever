@@ -1,5 +1,6 @@
 {
     "server-domain":"//datacenter.foefox.com",
+    "server-dns":"//india.datacenter.foefox.com",
     "server-path":"/vn-28",
     "client-path":"/vn-08",
     "compress": true,
